@@ -12,7 +12,7 @@ export default function Carrosel({ frases }) {
        (proximaFrase + 1) % frases.length
       )
 
-    }, 5000); // 4 segundos
+    }, 8000); // 4 segundos
 
     return () => clearInterval(interval); // limpar intervalo quando desmontar
   },  [frases.length]);

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 
 import Home from './pages/Home';
 import Motivação from './componentes/Motivação';
+import Objetivos from './componentes/Objetivos';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
      <div>
       <Home />
       <Motivação />
+      <Objetivos />
      </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import Home from './pages/Home';
 import Motivação from './componentes/Motivação';
 import Objetivos from './componentes/Objetivos';
-
+import TarefasDiarias from './componentes/TarefasDiarias';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,6 +14,7 @@ function App() {
       <Home />
       <Motivação />
       <Objetivos />
+      < TarefasDiarias />
      </div>
     </div>
   );
